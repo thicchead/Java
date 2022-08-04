@@ -3,8 +3,8 @@ package be.pxl.h1.opdracht2;
 public class Auto {
     private String merk;
     private String kleur;
-    private int kilometerstand;
     private int aantalDeuren;
+    private int kilometerstand;
 
     public String getMerk() {
         return merk;
@@ -22,11 +22,21 @@ public class Auto {
         this.kleur = kleur;
     }
 
+    public int getAantalDeuren() {
+        return aantalDeuren;
+    }
+
+    public void setAantalDeuren(int aantalDeuren) {
+        this.aantalDeuren = aantalDeuren;
+    }
+
     public int getKilometerstand() {
         return kilometerstand;
     }
 
-    public int getAantalDeuren() {
-        return aantalDeuren;
+    public void setKilometerstand(int kilometerstand) {
+        this.kilometerstand = kilometerstand;
     }
+
+
 }

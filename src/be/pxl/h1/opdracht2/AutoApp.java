@@ -2,18 +2,16 @@ package be.pxl.h1.opdracht2;
 
 public class AutoApp {
     public static void main(String[] args) {
-        System.out.println("Dit programma maakt een auto");
-        Auto auto = new Auto();
-
-        auto.setKleur("Grijs");
-        auto.setMerk("Audi");
-
-        System.out.println("Ik heb een " + auto.getMerk() + " die " + auto.getKleur() + " is.");
+        Auto favorieteAuto = new Auto();
 
 
-        Auto auto_twee = new Auto();
+        favorieteAuto.setMerk("Audi");
+        favorieteAuto.setKleur("Donkergrijs");
+        favorieteAuto.setAantalDeuren(5);
+        favorieteAuto.setKilometerstand(0);
 
-        System.out.println(auto_twee.getKleur());
 
+        System.out.println("Mijn favoriete auto is een " + favorieteAuto.getMerk() + " die " + favorieteAuto.getKleur() + " is. Ook is ze " + favorieteAuto.getAantalDeuren() + "-deurs.");
+        System.out.println("Ze is ook nieuw dus er staat " + favorieteAuto.getKilometerstand() + " op de kilometerteller.");
     }
 }
