@@ -5,6 +5,7 @@ public class Auto {
     private String kleur;
     private int aantalDeuren;
     private int kilometerstand;
+    private boolean automaat;
 
     public String getMerk() {
         return merk;
@@ -36,6 +37,31 @@ public class Auto {
 
     public void setKilometerstand(int kilometerstand) {
         this.kilometerstand = kilometerstand;
+    }
+
+    public boolean isAutomaat() {
+        return automaat;
+    }
+
+    public void setAutomaat(boolean automaat) {
+        this.automaat = automaat;
+    }
+
+    public int getPrijs() {
+        int prijs = 20000;
+
+        if (aantalDeuren == 3) {
+            prijs -= 500;
+        } else if (aantalDeuren == 5) {
+            prijs += 2000;
+        }
+
+        if (automaat == true) {
+            prijs += 2000;
+        } else {
+            prijs *= 0.98;
+        }
+        return prijs;
     }
 
 
