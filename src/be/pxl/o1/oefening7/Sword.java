@@ -19,10 +19,4 @@ public class Sword {
     public void setDurability(int durability) {
         this.durability = durability;
     }
-
-    public String findStrongest() {
-        String[] swords = new String[];
-
-        
-    }
 }
