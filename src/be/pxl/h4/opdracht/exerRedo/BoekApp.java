@@ -7,5 +7,12 @@ public class BoekApp {
         System.out.println(boek.toonBoekgegevens());
         System.out.println(boek.toString());
 
+        Auteur dila = new Auteur("Dila Ayse", "Karakoruk");
+
+        Boek dilasBoek = new Boek("1234", "Ik stink", 50000, dila);
+
+        System.out.println(dilasBoek.toonBoekgegevens());
+
+
     }
 }
