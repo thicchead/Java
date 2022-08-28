@@ -1,0 +1,24 @@
+variabelen die ik van boven aanmaak zijn instantievariabelen
+private en public zijn access modifiers
+en dan string, int, ... zijn de datatypes
+
+lokale variabelen worden in een methode gemaakt en enkel daarin gebruikt
+
+bij scanner next int --> de anter wordt ook als input gezien --> lege scanner nextline gebruiken zodat enter daar wordt opgeslagen
+
+FORMATTING
+
+% + c (character) + d (int, long)+ f (float) + n (none) + s (any) + S (any)
+--> uni char              int	    dec num   newline    string      hoofdletter string
+
+%20d --> 20 plaatsen geven, rechts printen
+%-20d --> 20 plaatsen geven, links printen
+%020d --> 20 plaatsen, rechts allemaal nullen
+%.2f --> afronden op 2 getallen na de komma
+
+constructors --> van kleine tot grote gaan
+main constructor gebruikt setExample(example)
+	andere gebruiken this(waarde, waarde1)
+
+
+sidenote = char elementen worden met '...' gemaakt, niet "..."
