@@ -21,6 +21,5 @@ public class ThermometerApp {
             System.out.println(print);
         }
 
-
     }
 }

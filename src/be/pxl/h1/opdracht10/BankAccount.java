@@ -40,9 +40,7 @@ public class BankAccount {
     }
 
     public String getAccount() {
-        String account = code + controlDigits + number;
-
-        return account;
+        return code + controlDigits + number;
     }
 
     public float getAmount() {

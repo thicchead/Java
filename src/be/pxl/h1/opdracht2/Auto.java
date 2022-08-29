@@ -56,7 +56,7 @@ public class Auto {
             prijs += 2000;
         }
 
-        if (automaat == true) {
+        if (automaat) {
             prijs += 2000;
         } else {
             prijs *= 0.98;
