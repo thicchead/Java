@@ -1,4 +1,4 @@
-package be.pxl.throwAway;
+package be.pxl.throwAway.andereHoofdStukken;
 
 public class CTestApp {
     public static void main(String[] args) {

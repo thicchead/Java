@@ -1,4 +1,4 @@
-package be.pxl.throwAway;
+package be.pxl.throwAway.andereHoofdStukken;
 
 public class ConstructorTests {
     private String voornaam;
