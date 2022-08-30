@@ -22,3 +22,10 @@ main constructor gebruikt setExample(example)
 
 
 sidenote = char elementen worden met '...' gemaakt, niet "..."
+
+Opsommingstype
+    Klasse, beperkt aantal instanties beschikbaar
+
+Tijdens declaratie opgesomd --> zelf geen instanties aanmaken
+Instanties --> als constanten gebruikt
+           --> kan men zien als statistische eig van de klasse
